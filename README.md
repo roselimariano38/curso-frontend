@@ -21,6 +21,7 @@
  - Mac (Brew): brew isntall git
 
 ## Criar uma conta no GitHub
+git clone https://github.com/roselimariano38/curso-frontend.git
 
 ## Clonar o projeto
 
