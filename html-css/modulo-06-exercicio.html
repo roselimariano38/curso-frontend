@@ -1,0 +1,75 @@
+<!DOCTYPE html><!-- padrão HTML5 -->
+<html lang="pt_br">
+      <head>
+          <title>Exercício Módulo 6</title>
+          <meta charset="UFT-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+      </head>
+       <body>
+           <header>
+               <h1>Curso ebaconline</h1>
+           </header>
+           <section>
+              <nav class="home01">
+                   <ul>
+                       <lis><a href="https://ebaconline.com.br/">HOME</a></li>
+                   </ul>
+               </nav>
+                <article>
+                   <h2 class="Curso">Dúvidas sobre cursos da ebaconline?</h2>
+                   <p>Preencha os campos abaixo para mais informações do curso:</p>
+                   <form method="post">
+                     <div>
+                       <label for="nome">Nome</label><br>
+                       <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                   </div>         
+                    <div>
+                       <label for="email">E-mail</label><br>
+                       <input type="email" name="email" id="email" placeholder="Digite seu email">
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem com suas dúvidas</label><br>
+                        <textarea name="mensagem id"mensagem"rows="5"></textarea>
+                    </div>
+                    <div>
+                        <p>
+                         <label> qual profissão se identifica?</label>
+                         <input class="nome" type="radio" name="linguagens" value="Design">Design
+                         <input type="radio" name="linguagens" value="programação e data">Programação e Data
+                         <input type="radio" name="linguagens" value="Software">Software
+                         <input type="radio" name="linguagens" value="Game">Game
+                         <input type="radio" name="linguagens" value="Marketing">Marketing
+                         <input type="radio" name="linguagens" value="Audiovisual"> Audiovisual
+                         </p>
+                     </div>
+                     <div>
+                        <p>
+                         <label>Quais cursos você tem alguma noção básica?</label>
+                         <input type="checkbox" name="linguagens" value="Design">Design
+                         <input type="checkbox" name="linguagens" value="programação e data">Programação e Data
+                         <input type="checkbox" name="linguagens" value="Software">Software
+                         <input type="checkbox" name="linguagens" value="Game">Game
+                         <input type="checkbox" name="linguagens" value="Marketing">Marketing
+                         <input type="checkbox" name="linguagens" value="Audiovisual"> Audiovisual                     
+                         </p>
+                     </div>
+                     <div>
+                        <label>Qual melhor horário para focar no estudo?</label>
+                         <select>
+                             <option value="Noite" selected>Noite</option>
+                             <option value="Manhã">Manhã</option>
+                             <option value="Tarde">Tarde</option>
+                             <option value="Madrugada">Madrugada</option>
+                         </select>
+                     </div>
+                    <div>
+                        <input type="submit">
+                    </div>
+                 </form>
+               </article>
+           </section>
+           <footer>Desenvolvido por Roseli</footer>
+      </body> 
+</html>

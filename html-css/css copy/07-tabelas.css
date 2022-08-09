@@ -1,0 +1,172 @@
+/* Importando CSS de Tabelas */
+@import url('tabelas.css');
+
+
+/*
+
+	Herança
+
+	1. Sobreposição / Sobrescreve
+	2. Aplique o último estilo definido
+	3. Prioriza estilo específico (com exclusividade mais próxima)
+	4. Se aplica a todas as propriedades
+
+ */
+
+
+html{
+	família de fontes: sem serifa;
+	cor: #333333;
+}
+
+p{
+	cor: #454545;
+}
+
+cabeçalho p {
+	cor: #ff;
+	tamanho da fonte: 1.5rem;
+}
+
+
+/*
+
+	Combinadores
+	
+	(espaço) descendente
+	(>) combinador de escolhidos filhos
+	(+) combinador de elementos adjacentes / que vem logo irmãos na sequência
+	(~) combinador de elementos gerais / após elemento de referência
+
+	
+*/
+
+
+cabeçalho h2 {
+	peso da fonte: 100;
+}
+
+
+cabeçalho > h2 {
+	peso da fonte: 600;
+}
+
+h2 + p{
+	fundo: #FF0;
+	cor: #333;
+}
+
+h2 ~ h5 {
+	tamanho da fonte: 1.2rem;
+}
+
+div ~ p {
+	transformação de texto: maiúsculas;
+}
+
+
+/* Pseudo-classes */
+
+uma {
+	cor: #555555;
+	decoração de texto: nenhuma; /* o padrão é sublinhado */
+	tamanho da fonte: 1.5rem;
+	exibição: bloco;
+	largura: 100%;
+	altura: automático;
+}
+
+a:visitou {
+	cor: #f00;
+}
+
+a:ativo {
+	cor: #096;
+}
+
+a: pairar {
+	cor: #009;
+	fundo: #eee;
+}
+
+h2: pairar {
+	cor: #888;
+}
+
+
+/*
+	Tipografia
+*/
+
+html{
+	família de fontes: sem serifa;
+}
+
+h1, h2, h3 {
+	peso da fonte: 400;
+	font-family: 'Limelight', cursiva;
+}
+
+p{
+	peso da fonte: normal;
+	tamanho da fonte: 1.4rem;
+}
+
+ul {
+	padding-esquerdo: .5rem;
+	margem esquerda: .5rem;	
+}
+
+li {
+	espaçamento entre letras: 0,01rem;
+	família de fontes: sem serifa;
+	altura da linha: 1,5;
+}
+
+h3 {
+	/* declaração resumida / completa */
+	fonte: itálico negrito 1.2rem/2 sans-serif;
+}
+
+
+/*
+
+	Núcleos
+
+*/
+
+corpo {
+	background: url('../images/pattern.png') centro superior repetir #EEEEEE;
+}
+
+seção {
+	fundo: rgba(255, 255, 255, 0,95);
+}
+
+p{
+	cor azul;
+	cor: #034589;
+}
+
+cabeçalho,
+rodapé {
+	cor de fundo: #034589;
+}
+
+rodapé p {
+	cor: rgb(255, 255, 255);
+}
+
+.navegacao {
+	cor de fundo: rgba(0, 0, 0, 0,5);
+	preenchimento: 0,5rem;
+}
+
+.navegacao li a {
+	cor branca;
+	tamanho da fonte: 1.4rem;
+}
+
+.navegacao li a:hover {
+	cor de fundo: rgba(150, 150, 200, .5);
+	cor: #333333;
