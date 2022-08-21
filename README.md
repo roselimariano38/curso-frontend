@@ -31,6 +31,16 @@ Informação de alteração
  -após testado todo seu código
  - Git add *
  - Git commit -m *mensagem*
+ 
+ 
+  ### Branchs
+ São ramificações / Versões paralelas
+
+ -main/master ( vai para produção,quando o projeto é publicado)
+ -develop
+ -DOD Definition of Done: critérios de aceite
+ -versionamento 1.0.0
+
 
 
  ## GitFlow
