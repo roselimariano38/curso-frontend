@@ -61,5 +61,25 @@ Mescla de Branchs
 
  git checkout -b dev (cria uam branch)
  git checkout master ( muda de branch)
+ 
 ### Merge
 Mescla de Branchs
+
+ git checkout -b dev (cria uam branch)
+ git checkout master ( muda de branch)
+
+
+### Merge
+Mescla de Branchs
+você pode resolver conflitos manualmente
+
+ git merge main
+
+### Pull Requests
+Mescla de Branchs no Repositório
+Permite code review
+o repositório resolve os conflitos automaticamente
+
+### Configurar o GitFlow
+git flow init
+git flow feature start [melhoria-html]
