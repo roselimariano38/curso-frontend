@@ -40,6 +40,11 @@ Informação de alteração
  -develop
  -DOD Definition of Done: critérios de aceite
  -versionamento 1.0.0
+ 
+  git checkout -b dev (cria uam branch)
+
+### Merge
+Mescla de Branchs
 
 
 
